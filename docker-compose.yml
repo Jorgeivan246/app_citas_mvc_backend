@@ -1,0 +1,15 @@
+version : '3'
+
+services:
+  db:
+    container_name: citas_db
+    image: mysql:8.2
+    volumes:
+      - ./mysql-db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=citas_db
+    ports:
+      - "3306:3306"
+
+
