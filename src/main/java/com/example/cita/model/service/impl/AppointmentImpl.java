@@ -44,9 +44,9 @@ public class AppointmentImpl implements IAppointmentService {
 
 
 
-     //   return appointmentDTOMapper.toDto(createdAppointment);
+      return appointmentDTOMapper.toDto(createdAppointment);
 
-return null;
+        //return null;
     }
 
 

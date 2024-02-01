@@ -15,6 +15,7 @@ public interface AppointmentDTOMapper {
     @Mapping(source = "adress", target = "adress")
     @Mapping(source = "medicalSpeciality", target = "medicalSpeciality")
     @Mapping(source = "date", target = "date")
+    @Mapping(source = "state", target = "state")
     AppointmentDTO toDto(Appointment domain);
 }
 

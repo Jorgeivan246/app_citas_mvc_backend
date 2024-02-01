@@ -13,6 +13,7 @@ import java.util.Date;
 @ToString
 public class AppointmentDTO {
 
+
     private Long id;
 
     private String nameDoctor;
@@ -22,6 +23,8 @@ public class AppointmentDTO {
     private String medicalSpeciality;
 
     private Date date;
+
+    private boolean state;
 
 
 }
