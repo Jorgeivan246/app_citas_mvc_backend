@@ -9,6 +9,7 @@ import java.util.Date;
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@ToString
 public class AppointmentRequest {
 
 
@@ -20,35 +21,5 @@ public class AppointmentRequest {
 
     private Date date;
 
-    public String getNameDoctor() {
-        return nameDoctor;
-    }
 
-    public void setNameDoctor(String nameDoctor) {
-        this.nameDoctor = nameDoctor;
-    }
-
-    public String getAdress() {
-        return adress;
-    }
-
-    public void setAdress(String adress) {
-        this.adress = adress;
-    }
-
-    public String getMedicalSpeciality() {
-        return medicalSpeciality;
-    }
-
-    public void setMedicalSpeciality(String medicalSpeciality) {
-        this.medicalSpeciality = medicalSpeciality;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
 }

@@ -10,11 +10,12 @@ import java.io.Serializable;
 import java.util.List;
 
 @Entity
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@ToString
 public class Medicament implements Serializable {
 
 
