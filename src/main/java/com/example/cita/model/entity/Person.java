@@ -27,6 +27,8 @@ public class Person implements Serializable {
 
     private String password;
 
+    private String username;
+
     @ManyToMany(mappedBy = "person")
     private List<Medicament> medicaments;
 

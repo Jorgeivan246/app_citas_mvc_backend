@@ -15,8 +15,8 @@ public interface PersonDTOMapper {
 
     @Mapping(source = "name", target = "name")
     @Mapping(source = "email", target = "email")
-    @Mapping(source = "password", target = "password")
-    PersonDTO toPerson(Person domain);
+
+    PersonDTO toDTO(Person domain);
 
 
 }

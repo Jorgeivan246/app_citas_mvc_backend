@@ -1,6 +1,7 @@
 package com.example.cita.model.service.impl;
 
 import com.example.cita.model.dto.AppointmentDTO;
+import com.example.cita.model.dto.PersonDTO;
 import com.example.cita.model.dto.request.AppointmentRequest;
 import com.example.cita.model.mapper.AppointmentDTOMapper;
 import com.example.cita.model.mapper.AppointmentRequestMapper;
@@ -48,7 +49,6 @@ public class AppointmentImpl implements IAppointmentService {
 
 
     }
-
 
 
 

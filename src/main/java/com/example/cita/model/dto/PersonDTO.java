@@ -16,7 +16,7 @@ public class PersonDTO {
 
 
 
-    private Long id;
+
 
     private String name;
 
@@ -25,7 +25,6 @@ public class PersonDTO {
 
     private String username;
 
-    private String password;
 
     private List<Medicament> medicaments;
 
