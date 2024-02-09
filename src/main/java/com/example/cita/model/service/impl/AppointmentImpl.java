@@ -6,7 +6,7 @@ import com.example.cita.model.mapper.AppointmentDTOMapper;
 import com.example.cita.model.mapper.AppointmentRequestMapper;
 import com.example.cita.model.repository.AppointmentRepository;
 import com.example.cita.model.service.IAppointmentService;
-import lombok.RequiredArgsConstructor;
+
 import org.springframework.stereotype.Service;
 
 
@@ -46,7 +46,7 @@ public class AppointmentImpl implements IAppointmentService {
 
       return appointmentDTOMapper.toDto(createdAppointment);
 
-        //return null;
+
     }
 
 

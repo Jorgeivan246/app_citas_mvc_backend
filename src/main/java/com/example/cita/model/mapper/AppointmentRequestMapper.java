@@ -7,11 +7,12 @@ import com.example.cita.model.entity.Appointment;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;
-import org.springframework.context.annotation.Configuration;
+
 
 
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
-public interface AppointmentRequestMapper {
+public interface
+AppointmentRequestMapper {
 
 
 
@@ -20,6 +21,8 @@ public interface AppointmentRequestMapper {
     @Mapping(source = "medicalSpeciality", target = "medicalSpeciality")
     @Mapping(source = "date", target = "date")
     Appointment toDomain(AppointmentRequest request);
+
+
 }
 
 

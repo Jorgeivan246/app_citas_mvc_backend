@@ -1,8 +1,8 @@
 package com.example.cita.model.mapper;
 
-import com.example.cita.model.dto.AppointmentDTO;
+
 import com.example.cita.model.dto.PersonDTO;
-import com.example.cita.model.entity.Appointment;
+
 import com.example.cita.model.entity.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -15,6 +15,7 @@ public interface PersonRequestMapper {
 
     @Mapping(source = "name", target = "name")
     @Mapping(source = "email", target = "email")
+    @Mapping(source = "password", target = "password")
     PersonDTO toDto(Person domain);
 
 }
